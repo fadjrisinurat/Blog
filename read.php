@@ -22,10 +22,8 @@ $article = $conn->query($sql)->fetch();
             <p class="lead my-3"><?php echo htmlspecialchars($article['deskripsi']); ?></p>
             <p class="lead mt-2"><?php echo htmlspecialchars($article['isi']); ?></p>
 
-            <svg class="bi">
-                <use xlink:href="#chevron-right" />
-            </svg>
-            </a>
+            <a href="index.php">Back</a>
+
         </div>
     </div>
 </div>
